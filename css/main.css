@@ -1,0 +1,484 @@
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color:unset;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    display: none;
+}
+body {
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    color: white;
+    overflow-x: hidden;
+}
+
+
+.barra {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 15vw;
+    height: auto;
+    padding: 1.5vw 2vw 0vw 1vw;
+}
+
+.barraNav {
+    align-self: center;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.navItem {
+    display: inline-block;
+    text-decoration: none;
+    width: max-content;
+    padding: 0px 3px 0px 3px;
+    font-size:1.2em;
+}
+
+.log {
+    display: inline-block;
+    text-align: right;
+
+}
+
+.barraLog {
+    align-self: center;
+    text-align: center;
+    padding-left: 36%;
+    padding-bottom: 1%;
+}
+
+.mainDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.mainUl {
+    display: inline-block;
+    text-decoration: none;
+    width: max-content;
+    padding: 0px 3px 0px 3px;
+     
+}
+
+.mainItem {
+    display: inline-block;
+    text-decoration: none;
+    width: max-content;
+    padding: 60px 60px 0px 60px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.imgcuarzo {
+    height: 60em;
+    width: auto;
+    background-image: url('../images/cuarzos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+.imgsahumo {
+    background-image: url('../images/incienso2.png');
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+footer {
+    background-image: url('../images/footer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    height: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagentarjetas {
+    height: 5vw;
+
+}
+
+.navUl {
+    display: flex;
+    align-items: center;
+}
+
+.imagenredes {
+    height: 4vw;
+    padding: 0.5vw 0vw;
+}
+
+.h2SobreNosotros {
+    font-size: 2vw;
+    color: rgb(226, 215, 215);
+    display:flex;
+    justify-content: center;
+
+
+}
+
+.imgPreguntasFrecuentes {
+    background-image: url('../images/preguntas-frecuentes.png');
+    background-size: cover;
+    background-position: center;
+    height: 48em;
+    width: 50em;
+    display: flex;
+    border-radius: 1em;
+}
+
+.alinearPreguntas {
+    display: flex;
+    border-radius: 2em;
+}
+
+.ulFooter {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1.4vw;
+    width: max-content;
+    padding: 0px 3px 0px 3px;
+}
+
+.centrarPagos {
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    justify-content: center;
+}
+
+.centrarsobrenosotros{
+    display: flex;
+    flex-direction: column;
+    height: 8vh;
+}
+
+.preguntasUl {
+    margin: 6em;
+}
+
+.imgHeaderUsos {
+    background-image: url('../images/header-usos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: vw;
+}
+
+.h1Preguntas {
+    font-size: 3em;
+}
+
+
+.imgUtilizar {
+    background-image: url('../images/comoutilizar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 74em;
+}
+
+.imgContacto {
+    background-image: url('../images/contacto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50em;
+    width: auto;
+}
+
+.imgTienda {
+    background-image: url('../images/headertienda.png');
+    background-repeat: no-repeat;
+    height: 52em;
+    padding: none;
+}
+
+.h1Tienda {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+.usosUl h2 {
+    font-size: 2em;
+    padding: none;
+    margin: none;
+    text-align: center;
+}
+
+.usosUl p {
+    font-size: 1em;
+    display: flex;
+    padding: 0.5em;
+}
+
+.alinearUsos {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    background-color: rgb(0 0 0 / 76%);
+    border-radius: 2em;
+}
+
+.usosUl {
+    font-size: 1.4em;
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.575);
+    border-radius: 2em;
+    padding: 1em;
+    margin: 1em 0em;
+
+}
+
+.divTablaRevendedores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centrarTabla {
+    text-align: left;
+}
+
+
+
+.h1Contact {
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+}
+
+.sectionContact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.h1TiendaIndex {
+    font-size: 2.2em;
+    display: flex;
+    justify-content: flex-start;
+    padding: 4em 0em 0em 10em;
+}
+
+.imgCuarzoTienda {
+    height: 28em;
+    width: auto;
+    background-image: url('../images/footer-tienda.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gridCaja {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    justify-items: center;
+}
+
+.gridWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    row-gap: 20px;
+}
+
+
+.imgGrid img {
+    width: 20em;
+    height: auto;
+}
+
+
+.pTituloGrid {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.pPrecioGrid {
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.contactoMapa {
+    display: flex;
+    padding: 2em;
+} 
+
+.formFlex {
+    display: flex;
+    padding: 0em 8em;
+}
+
+.formItem {
+    display: flex;
+    margin: 8px;
+    
+}
+
+.form1 {
+    display: flex;
+}
+
+.form2 {
+    display: flex;
+}
+
+.divFooter {
+    height: 50%;
+}
+
+.sectionPreg {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionUsos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionUsos p {
+    text-align: center;
+}
+
+
+@media only screen and (max-width:968px){
+    .gridWrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+    .imgPreguntasFrecuentes {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width:768px){
+
+    img.logo {
+        width: auto;
+        height: 100px;
+        padding: 1em 0em 0em 0.5em;
+    }
+    .navUl{
+        align-items: flex-end;
+        flex-direction: column;
+        padding: 1em 1em 0em 0em;
+    }
+
+    .barra {
+    justify-content: space-between;
+    }
+    
+    .usosUl h2 {
+        font-size: 5vh;
+
+    }
+    .usosUl p {
+        font-size: 1.6vh;
+    }
+    
+    .gridWrapper{
+        grid-template-columns: 1fr;
+    }
+    
+}
+.formContacto{
+    width: 100vw;
+}
+
+.form1 {
+    display: flex;
+    justify-content: center;
+}
+
+.form2 {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width:425px){
+
+    footer {
+        flex-direction: column;
+        background-image: none;
+        height: 200px;
+    }
+
+    .h2SobreNosotros {
+        font-size: 2.6vh;
+    }
+    .ulFooter {
+        font-size: 2vh;
+    }
+    .centrarsobrenosotros {
+        align-items: center;
+    }
+
+    .imagentarjetas{
+        height: 5vh;
+    }
+    .imagenredes{
+        height: 4vh;
+    }
+
+    .divFooter2 {
+        padding-top: 150px;
+    }
+    .paddingMetodos {
+        padding-top: 15px;
+    }
+
+    .usosUl h2 {
+        font-size: 3vh;
+
+    }
+    .usosUl p {
+        font-size: 1.6vh;
+    }
+
+    .gridWrapper{
+        grid-template-columns: 1fr;
+    }
+
+    .imgHeaderUsos {
+        height: 80vh;
+    }
+
+   .form1 {
+    flex-direction: column;
+   }
+}
